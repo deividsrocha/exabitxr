@@ -1,0 +1,2 @@
+# exabitxr
+ static paga
