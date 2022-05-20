@@ -23,19 +23,25 @@
 .iconefiltro{
     width: 35px;
     height: 100%;
-    position: relative;
     display: block;
-    top: -65px;
-    margin: 1px 17px 1px;
-    
+
+    margin: 1px 7px 1px;
 }
 
 .icone-container{
-    padding: 0; margin: 0;
+    padding: 0;
+    margin: 0;
+    top: 207px;
+    position: absolute;
+    width: 100%;
+    left: 10px;
 }
 
 li { padding: 0; margin: 0; }
-a { padding: 0px; display: block; }
+a { padding: 0px; 
+    display: block;
+    text-decoration: none;
+ }
 
 .caixavideo{
     display: inline-block;
@@ -45,4 +51,12 @@ a { padding: 0px; display: block; }
     padding: 0;
     margin: 1px 10px 1px;
     vertical-align: top;
+}
+
+.effectitulo{
+    top: -28px;
+    position: relative;
+    color: white;
+    left: 45px;
+    width: fit-content;
 }
