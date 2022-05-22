@@ -89,11 +89,12 @@ a { padding: 0px;
     padding: 0;
     margin: 1px 10px 1px;
     vertical-align: top;
+    background-color: #1a1a1a;
   }
   
 
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgb(46 46 46);
   }
   
 
