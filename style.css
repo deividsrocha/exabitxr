@@ -155,8 +155,7 @@ a { padding: 0px;
   }
 
   .clientsbox{
-    width: 100%;
-    height: 500px;
+
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -164,14 +163,11 @@ a { padding: 0px;
   }
 
   .clientstext{
-      position: relative;
-      top: 80px;
       color: #5c5c5c;
-      font-size: 37px;
+      font-size: 29px;
       font-family: 'Raleway', sans-serif;
   }
   .logocid{
-
     position: relative;
     top: -80px;
     width: 46%;
@@ -179,4 +175,35 @@ a { padding: 0px;
 
   }
 
-  
+.container-quemsomos{
+  padding: 70px 0px 55px 70px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.box-quemsomos{
+  width: 37.592%;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.clientstext2{
+  margin: 0px 0px 0px 17px;
+  font-size: 44px;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+
+}
+.clientstext3{
+  margin: 15px 35px 23px 28px;
+  font-size: 22px;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 200;
+  color: #444444;
+
+}
