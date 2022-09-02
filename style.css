@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+  background-color: #212121;
 	line-height: 1;
 }
 ol, ul {
@@ -163,9 +164,10 @@ a { padding: 0px;
   }
 
   .clientstext{
-      color: #5c5c5c;
-      font-size: 29px;
-      font-family: 'Raleway', sans-serif;
+    padding: 2% 0% 0% 4%;
+    color: #5c5c5c;
+    font-size: 29px;
+    font-family: 'Raleway', sans-serif;
   }
   .logocid{
     position: relative;
@@ -184,12 +186,13 @@ a { padding: 0px;
 }
 
 .box-quemsomos{
-  width: 37.592%;
+  width: 40%;
+  border-radius: 10%;
   display: block;
   position: relative;
   min-height: 1px;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: #212121;
 }
 
 .clientstext2{
@@ -197,14 +200,24 @@ a { padding: 0px;
   font-size: 44px;
   font-family: "Roboto", Sans-serif;
   font-weight: 400;
-
+  color: #fff;
 }
 .clientstext3{
   margin: 15px 35px 23px 28px;
   font-size: 22px;
   font-family: "Roboto", Sans-serif;
   font-weight: 200;
-  color: #444444;
+  color: #a7a7a7;
 
 }
 
+.listclientes{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.imagemcliente{
+  padding: 0px 0px 0px 9%;
+}
