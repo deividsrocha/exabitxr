@@ -136,6 +136,7 @@ a { padding: 0px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     transition: 0.3s;
     display: inline-block;
+    border-radius: 10%;
     box-sizing: border-box;
     width: 193px;
     position: relative;
@@ -212,7 +213,7 @@ a { padding: 0px;
 }
 
 .listclientes{
-    display: flex;
+    display: inline-block;
     margin-right: auto;
     margin-left: auto;
     position: relative;
