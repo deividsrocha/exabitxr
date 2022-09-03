@@ -140,7 +140,7 @@ a { padding: 0px;
     width: 193px;
     position: relative;
     padding: 0;
-    margin: 1px 10px 1px;
+    margin: 20px 10px 20px;
     vertical-align: top;
     background-color: #1a1a1a;
   }
@@ -220,4 +220,13 @@ a { padding: 0px;
 
 .imagemcliente{
   padding: 0px 0px 0px 9%;
+}
+
+.wedo{
+  background-color: aquamarine;
+  width: 100%;
+}
+
+b{
+  color: #fff;
 }
